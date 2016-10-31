@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_black">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="90dp"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="@string/main_menu"
+        android:id="@+id/mainMenu"
+        android:layout_gravity="center|top"
+        android:textSize="50sp"
+        android:textColor="@color/brighter_green"
+        android:textStyle="bold"
+        android:layout_marginTop="45dp"/>
+
+
+    <Button
+        android:layout_width="150dp"
+        android:layout_height="40dp"
+        android:text="@string/profile_setting"
+        android:id="@+id/profile_setting"
+        android:background="@color/colorPrimaryDark"
+        android:textColor="@color/brighter_green"
+        android:layout_marginTop="50dp"
+        android:layout_marginBottom="@dimen/activity_vertical_margin"
+        android:layout_gravity="center_horizontal"/>
+
+    <Button
+        android:layout_width="150dp"
+        android:layout_height="40dp"
+        android:text="@string/view_posts_button"
+        android:id="@+id/view_posts_button"
+        android:background="@color/colorPrimaryDark"
+        android:textColor="@color/brighter_green"
+        android:layout_marginTop="50dp"
+        android:layout_marginBottom="@dimen/activity_vertical_margin"
+        android:layout_gravity="center_horizontal"/>
+
+    <Button
+        android:layout_width="150dp"
+        android:layout_height="40dp"
+        android:text="@string/create_new_post_button"
+        android:id="@+id/create_new_post_button"
+        android:background="@color/colorPrimaryDark"
+        android:textColor="@color/brighter_green"
+        android:layout_marginTop="50dp"
+        android:layout_marginBottom="@dimen/activity_vertical_margin"
+        android:layout_gravity="center_horizontal"/>
+</LinearLayout>

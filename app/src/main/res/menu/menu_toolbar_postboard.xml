@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/menu_button_search_posts"
+        android:icon="@drawable/search_icon"
+        android:title="@string/search_posts"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/menu_button_sort_posts"
+        android:icon="@drawable/sort_icon"
+        android:title="@string/sort_posts"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/menu_button_settings"
+        android:title="@string/settings"
+        app:showAsAction="never" />
+
+</menu>
